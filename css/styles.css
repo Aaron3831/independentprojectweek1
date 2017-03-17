@@ -1,47 +1,63 @@
-.container {
-  height: auto;
-  overflow: hidden;
-}
-.float {
-  float: right;
-  background-color: #ffcece;
-}
-.centertext {
+.jumbotron {
   text-align: center;
+  background-color: #e7f9cc;
 }
-.col-md-6:nth-child(odd) {
-float: right;
+body {
+  background-color: #fff1c1;
 }
-.col-md-6 {
-  float: none;
-  vertical-align: top;
-  background-color: #c4faff;
+.p {
+  font-size: 20px;
 }
-.well {
-  background-color: #c4faff;
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
 }
-.container {
-  display: table;
-  table-layout: fixed;
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 4px 0;
+  position: absolute;
+  z-index: 1;
+}
+.panel {
+  background-color: #e7f9cc;
+}
+.vleft {
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+}
+.vright {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
 }
 .jumbotron {
-  width: auto;
-  float: none;
-  background-color: #def9ac;
+  margin-top: 4%;
 }
-.body {
-  height: 100%;
-  background-color: #def9ac;
+span {
+  text-decoration: underline;
 }
-.html {
-  min-height: 100%;
-  position: relative;
+img {
+  width: 100%;
+  height: auto;
+}
+.parent {
+  display: table;
+}
+.child {
+  display: table-cell;
+}
+p {
+  font-size: 24px;
 }
 .box {
-  margin: 10%;
-  border: 3px solid: blue;
-  padding: 5px;
-  background-color: #ffdbdb;
-  width: 50%;
-  align-items: center;
+  margin: 3px;
+  border: 2px solid white;
+  padding: 4px;
+  background-color: gray;
 }
