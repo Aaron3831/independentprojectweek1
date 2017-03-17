@@ -53,3 +53,6 @@ body {
 .jumbotron {
   margin-top: 4%;
 }
+span {
+  text-decoration: underline;
+}
