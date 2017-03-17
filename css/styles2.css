@@ -45,7 +45,6 @@ span {
 img {
   width: 100%;
   height: auto;
-  vertical-align: middle;
 }
 .parent {
   display: table;
