@@ -9,3 +9,30 @@
 .centertext {
   text-align: center;
 }
+.well:nth-child(odd) {
+background-color: #c4faff;
+}
+.col-md-6 {
+  min-height: 100%;
+  width: 50%;
+  float: left;
+}
+.well {
+  background-color: #c4faff;
+}
+.container {
+  display: block;
+  width: 90%;
+}
+.jumbotron {
+  width: auto;
+  float: none;
+  background-color: #def9ac;
+}
+.body {
+  height: 100%;
+}
+.html {
+  min-height: 100%;
+  position: relative;
+}
