@@ -56,3 +56,16 @@ body {
 span {
   text-decoration: underline;
 }
+img {
+  width: 100%;
+  height: auto;
+}
+.parent {
+  display: table;
+}
+.child {
+  display: table-cell;
+}
+p {
+  font-size: 24px;
+}
