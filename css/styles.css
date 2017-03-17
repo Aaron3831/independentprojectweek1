@@ -1,0 +1,11 @@
+.container {
+  height: auto;
+  overflow: hidden;
+}
+.float {
+  float: right;
+  background-color: #ffcece;
+}
+.centertext {
+  text-align: center;
+}
