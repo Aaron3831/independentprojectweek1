@@ -10,7 +10,8 @@ _A portfolio containing information about me, my background, my projects and my 
 
 ## Setup/Installation Requirements
 
-* _View the .html file in any modern browser_
+* _View the .html file in any modern browser:
+https://aaron3831.github.io/independentprojectweek1/_
 
 ## Known Bugs
 
