@@ -26,3 +26,30 @@ body {
 .panel {
   background-color: #e7f9cc;
 }
+.vleft {
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+}
+.vright {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+}
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+.col-md-6 {
+  height: 100%;
+}
+.jumbotron {
+  margin-top: 4%;
+}
