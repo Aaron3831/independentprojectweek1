@@ -24,32 +24,6 @@ body {
   padding: 4px 0;
   position: absolute;
   z-index: 1;
-.jumbotron {
-  text-align: center;
-  background-color: #e7f9cc;
-  border-style: solid;
-  border-color: #5BC0DE;
-}
-body {
-  background-color: #fff1c1;
-}
-.p {
-  font-size: 20px;
-}
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-.tooltip .tooltiptext {
-  visibility: hidden;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 5px;
-  padding: 4px 0;
-  position: absolute;
-  z-index: 1;
 }
 .panel {
   background-color: #e7f9cc;
