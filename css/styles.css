@@ -9,15 +9,13 @@
 .centertext {
   text-align: center;
 }
-.well:nth-child(odd) {
-background-color: #c4faff;
+.col-md-6:nth-child(odd) {
+float: right;
 }
 .col-md-6 {
   float: none;
   vertical-align: top;
-  width: 100%;
-  display: table-cell;
-  width: 50%;
+  background-color: #c4faff;
 }
 .well {
   background-color: #c4faff;
