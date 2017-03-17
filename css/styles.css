@@ -67,18 +67,3 @@ p {
 li {
   font-size: 18px;
 }
-
-  display: table;
-}
-.child {
-  display: table-cell;
-}
-p {
-  font-size: 24px;
-}
-.box {
-  margin: 3px;
-  border: 2px solid white;
-  padding: 4px;
-  background-color: gray;
-}
