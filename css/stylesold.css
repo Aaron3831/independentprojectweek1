@@ -1,0 +1,47 @@
+.container {
+  height: auto;
+  overflow: hidden;
+}
+.float {
+  float: right;
+  background-color: #ffcece;
+}
+.centertext {
+  text-align: center;
+}
+.col-md-6:nth-child(odd) {
+float: right;
+}
+.col-md-6 {
+  float: none;
+  vertical-align: top;
+  background-color: #c4faff;
+}
+.well {
+  background-color: #c4faff;
+}
+.container {
+  display: table;
+  table-layout: fixed;
+}
+.jumbotron {
+  width: auto;
+  float: none;
+  background-color: #def9ac;
+}
+.body {
+  height: 100%;
+  background-color: #def9ac;
+}
+.html {
+  min-height: 100%;
+  position: relative;
+}
+.box {
+  margin: 10%;
+  border: 3px solid: blue;
+  padding: 5px;
+  background-color: #ffdbdb;
+  width: 50%;
+  align-items: center;
+}

@@ -1,62 +1,89 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-    <title>Aaron's Portfolio</title>
+    <link href="css/styles2.css" rel="stylesheet" type="text/css" media="all">
+    <title>Second attempt</title>
   </head>
-  <body class="body">
-    <div id="cloud-container">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 jumbotron">
-              <h1 class="centertext">Aaron's Portfolio</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="panel panel-info">
-
-            </div>
-          <div class="panel-heading">
-            <h3><em>Here are some things i've worked on so far:</em></h3>
-            <div class="panel-body">
-              <ul>
-                <li><a href="https://github.com/Aaron3831/wiki">Rebuilding a wiki page</a></li>
-                <li><a href="https://github.com/Aaron3831/vacation">Vacation Site</a></li>
-                <li><a href="https://github.com/Aaron3831/resort">Resort Site</a></li>
-              </ul>
-            </div>
-          </div>  
-          <div class="col-md-6">
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Aaron's Portfolio Page</h1>
+      </div>
+      <div class="row parent">
+        <div class="col-md-6 vleft child">
+          <div class="panel panel-info">
             <div class="panel-heading">
-              <h3 class="panel-title">My background</h3>
-                <p>
-                orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales accumsan cursus.
-                </p>
-              </div>
-          </div>
-          </div>
-          <div class="row columntable">
-            <div class="col-md-6">
-              <h3>About Me</h3>
-                <p>
-                orem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sodales accumsan cursus.
-                </p>
-            <div class="col-md-6">
-              <div class="panel-heading">
-                <h3 class="panel-title"><strong>Stuff I like to do</strong></h3>
-                  <ol>
-                    <li>stuff1</li>
-                    <li>stuff2</li>
-                    <li>stuff3</li>
-                    <li>stuff4</li>
-                  </ol>
-              </div>
+              <h2>Projects</h2>
             </div>
-          </div>
+              <blockquote class="panel-body">
+                <footer>These are some projects i've worked on so far</footer>
+                <ul>
+                  <li>
+                    <a href="https://github.com/Aaron3831/wiki">A wiki
+                    </a> -Demonstrates usage of bootstrap elements like panels, tabs and grids
+                  </li>
+                  <li>
+                    <a href="https://github.com/Aaron3831/vacation">Vacation Site</a> -More basic bootstrap elements like jumbotron
+                  </li>
+                  <li>
+                    <a href="https://github.com/Aaron3831/resort">Resort Site
+                    </a> -Demonstrates separate styling methods while utilizing branching
+                  </li>
+                </ul>
+              </blockquote>
           </div>
         </div>
+        <div class="col-md-6 vleft child">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h2><strong>About Me</strong></h2>
+            </div>
+              <div class="panel-body">
+                <p>
+                  There's not a lot to say about me, i'm a simple man. I do like to cook, play tabletop games and read.
+                </p>
+                <img src="img/cooking.jpg" alt="preparing ingredients for cooking"/>
+              </div>
+          </div>
+        </div>
+    <div class="container">
+      <div class="row parent">
+        <div class="col-md-6 vright child">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h2>Background</h2>
+            </div>
+              <div class="panel-body">
+                <p>
+                  Most of my past work experience involves physical labor like working in warehouses, machining and shipping. I wanted to take on programming because I want a more <span>stable career.</span>
+                </p>
+                <img src="img/warehouse1.png" alt="an image of a messy warehouse" />
+              </div>
+          </div>
+        </div>
+        <div class="col-md-6 vright child">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h2>Interests</h2>
+            </div>
+              <div class="panel-body">
+                <p>
+                  <em>Some of my interests include:
+                    <ol>
+                      <li>mountain biking</li>
+                      <li>fishing</li>
+                      <li>cats</li>
+                    </ol>
+                  </em>
+                </p>
+                <img class="box" src="img/mbike1.jpg" alt="a person riding a bike" />
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
       </div>
     </div>
   </body>
