@@ -64,3 +64,6 @@ p {
   padding: 4px;
   background-color: gray;
 }
+li {
+  font-size: 18px;
+}
