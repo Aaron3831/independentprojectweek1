@@ -1,6 +1,8 @@
 .jumbotron {
   text-align: center;
   background-color: #e7f9cc;
+  border-style: solid;
+  border-color: #5BC0DE;
 }
 body {
   background-color: #fff1c1;
@@ -45,6 +47,7 @@ span {
 img {
   width: 100%;
   height: auto;
+  vertical-align: middle;
 }
 .parent {
   display: table;
